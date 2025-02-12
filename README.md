@@ -1,1 +1,1 @@
-# indiaAI
+# IndiaAI

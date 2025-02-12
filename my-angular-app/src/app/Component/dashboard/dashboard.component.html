@@ -1,0 +1,34 @@
+<div class="dashboard">
+  <h1>Welcome to the Dashboard</h1>
+
+  <div class="content">
+    <p>
+      <strong>Logged-In User:</strong> {{ email }}
+      <i class="material-icons profile-icon">account_circle</i>
+    </p>
+  
+
+  <form [formGroup]="userForm" (ngSubmit)="saveUserDetails()">
+    <div>
+      <label for="name">Name:</label>
+      <input id="name" formControlName="name" type="text" />
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input id="email" formControlName="email" type="email" />
+    </div>
+    <div>
+      <label for="age">Age:</label>
+      <input id="age" formControlName="age" type="number" />
+    </div>
+    <div>
+      <label for="address">Address:</label>
+      <input id="address" formControlName="address" type="text" />
+    </div>
+    <div class="buttons-container">
+      <button type="submit" class="save-btn">Save Details</button>
+      <button type="button" class="logout-btn" (click)="logout()">Logout</button>
+    </div>
+  </form>
+</div>
+</div>

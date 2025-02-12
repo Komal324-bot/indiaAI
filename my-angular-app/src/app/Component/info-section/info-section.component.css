@@ -1,0 +1,52 @@
+.info-section {
+    position: relative;
+    padding: 80px 20px;
+    background-image: url('/assets/it.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    
+  }
+  
+  .content {
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: white;
+    
+    line-height: 1.6;
+  }
+  .brace {
+    color: darkorange;
+    font-size: 24px; 
+  }
+  .btn-get-started {
+    background-color: darkorange;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .btn-get-started:hover {
+    background-color: #e69500;
+  }
+  
